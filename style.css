@@ -15,7 +15,7 @@ body {
 .header {
   background-color: gray;
   width: 100%;
-  height: 10vh;
+  height: 12vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +31,7 @@ body {
 .navbar {
   height: 100%;
   width: 80%;
-  border: 1px solid red;
+  /* border: 1px solid yellow; */
   padding: 0px 2rem;
   display: flex;
   justify-content: space-between;
@@ -49,7 +49,8 @@ body {
 }
 
 .navbar-left img {
-  width: 18rem;
+  width: 16rem;
+  /* border: 1px solid red; */
 }
 
 .navbar-right {
@@ -100,8 +101,7 @@ body {
   margin-top: 5rem;
   height: 90vh;
   width: 100%;
-  background-color: rgba(121, 83, 83, 0.377);
-  border: 1px solid red;
+  background-color: rgb(15 15 15);
 }
 
 .text-wrapper {
@@ -130,7 +130,6 @@ body {
   align-items: center;
   align-content: center;
   color: rgb(220 38 38);
-  border: 1px solid green;
   margin: 0.5rem 0rem;
 }
 
@@ -172,36 +171,228 @@ body {
   display: flex;
   flex-direction: row;
   padding: 0px 1rem;
-  height: 70%;
+  height: 80vh;
   width: auto;
-  border: 1px solid aqua;
+  /* border: 1px solid rgb(255, 208, 0); */
+  justify-content: center;
+  padding: 0.2rem;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-flow: row;
+  margin: 5px;
+  background-color: rgb(15 15 15);
+  padding: 1rem;
 }
 
 .left-card {
-  border: 2px solid red;
-  width: 60%;
+  background-color: rgb(185 28 28 / 10%);
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  border-left: 1px solid red;
+  width: 55%;
+  padding: 1rem 0rem;
+  border-radius: 10px 0px 0px 10px;
 }
 .left-card h1 {
-  border: 1px solid yellow;
   font-size: 35px;
+  margin-top: 0rem;
+  padding: 0rem 0.5rem;
   font-family: "Roboto", sans-serif;
+  background-color: rgb(10 28 10 / 10%);
 }
 
+.left-card h1 span {
+  background-color: rgb(10 28 10 / 10%);
+}
 .small-text {
-  border: 1px solid greenyellow;
+  /* border: 1px solid red; */
+  background-color: rgb(10 28 10 / 10%);
   display: flex;
   padding: 3rem 3rem;
   gap: 3rem;
   font-family: "Roboto", sans-serif;
-
+}
+.small-text ul {
+  background-color: rgb(10 28 10 / 10%);
 }
 .small-text ul li {
   /* border: 1px solid gray; */
   font-size: 1rem;
   line-height: 1.5rem;
+  background-color: rgb(10 28 10 / 10%);
+  font-family: "Roboto", sans-serif;
+}
+
+.card-btn-box {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background-color: rgb(10 28 10 / 10%);
+}
+.card-btn {
+  border-radius: 10px;
+  border: transparent;
+  width: 5em;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  padding: 0.5rem 0px;
+  background-color: rgb(127 29 29 / 20%);
+  border: 1px solid red;
+  color: white;
 }
 
 .right-card {
-  border: 2px solid green;
-  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  border-right: 1px solid red;
+  width: 35%;
+  padding: 0rem;
+  background-color: rgb(185 28 28 / 10%);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.right-card-inner-box {
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: rgb(24 26 27);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.right-card img {
+  margin: 0.5rem;
+  width: 23rem;
+  border-radius: 10px;
+}
+
+.right-card h2 {
+  margin: 0rem 2rem;
+  /* padding: 0.5rem; */
+  background-color: rgb(10 28 10 / 10%);
+}
+
+.right-card hr {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border: 1px solid rgba(128, 128, 128, 0.541);
+  width: 90%;
+  margin: 1rem 1rem;
+}
+.supreme-btn {
+  font-family: "Roboto", sans-serif;
+  height: 3em;
+  width: 14em;
+  display: flex;
+  align-items: center;
+  border: transparent;
+  background-color: #dc2626;
+  font-weight: 500;
+  color: white;
+  border-radius: 10px;
+  margin: 0.5rem auto;
+  padding: 1.3rem;
+}
+.supreme-btn:hover {
+  background-color: red;
+}
+/* ----------success-section------------ */
+
+.success-section {
+  margin-top: 4rem;
+  height: 80vh;
+  width: 100%;
+  background-color: rgb(39, 36, 36);
+  border: 1px solid green;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 1rem;
+
+  /* border: 1px solid rgb(255, 208, 0); */
+  justify-content: center;
+  padding: 0.2rem;
+}
+
+.success-section-inner-box {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0rem;
+  height: 98%;
+  width: 88%;
+  border: 1px solid rgb(255, 208, 0);
+  justify-content: center;
+  padding: 0.2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-flow: row;
+  margin: 5px;
+  background-color: rgb(15 15 15);
+  padding: 1rem;
+}
+.left-success {
+  border: 1px solid yellowgreen;
+  width: 50%;
+  height: 100%;
+}
+.left-success h1 {
+  font-size: 3rem;
+  margin-top: 0rem;
+  padding: 0rem 0.5rem;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(10 28 10 / 10%);
+}
+.left-succes-p {
+  margin: 1rem 0rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background-color: rgba(66, 102, 66);
+  font-family: "Roboto", sans-serif;
+}
+.btns {
+  display: flex;
+  justify-content: start;
+  margin: 0.5rem 0rem 1rem 0.5rem;
+  gap: 1rem;
+}
+.view-btn {
+  font-family: "Roboto", sans-serif;
+  height: 2.5em;
+  display: flex;
+  align-items: center;
+  border: transparent;
+  background-color: rgb(102 115 204);
+  color: white;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0.2rem 2rem;
+}
+.watch-btn {
+  font-family: "Roboto", sans-serif;
+  height: 2.5em;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(239 71 111);
+  background-color:black;
+  color: white;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  padding:1rem 0.8rem;
+}
+
+.right-success {
+  border: 1px solid red;
+  width: 50%;
+  height: 100%;
 }
