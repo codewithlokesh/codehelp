@@ -1,0 +1,226 @@
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.container,
+.section,
+.section-third,
+.section-sixth,
+.section-10,
+.section-11,
+.section-12{
+  width: 100%;
+  /* overflow-x: hidden; */
+}
+
+/* ======================================
+        1200px
+====================================== */
+
+@media (max-width:1200px){
+
+  .card{
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .left-card,
+  .right-card{
+    width: 100%;
+  }
+
+  .success-section-inner-box{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .left-success,
+  .right-success{
+    width: 100%;
+  }
+
+  .section-third-inner-box{
+    flex-direction: column !important;
+    gap: 2rem;
+  }
+
+  .third-left,
+  .third-right{
+    width: 100%;
+  }
+
+  .section-sixth-inner-box{
+    flex-direction: column;
+  }
+
+  .sixth-left-part,
+  .sixth-right-part{
+    width: 100%;
+  }
+
+  .cards{
+    width: 48%;
+  }
+
+  .footer-top{
+    flex-wrap: wrap;
+  }
+
+  .footer-col{
+    width: 48%;
+  }
+}
+
+/* ======================================
+        992px (Tablet)
+====================================== */
+
+@media (max-width:992px){
+
+  .navbar{
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .navbar-right{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .navbar-right ul{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .text-wrapper{
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .small-text{
+    flex-direction: column;
+    height: auto;
+    gap: 1rem;
+  }
+
+  .div-with-btn{
+    flex-direction: column;
+    height: auto;
+    gap: 1rem;
+  }
+
+  .achievement-inner-part{
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .cards{
+    width: 100%;
+  }
+
+  .price-cards-11{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .section-12-container{
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: auto;
+  }
+}
+
+/* ======================================
+        768px (Mobile)
+====================================== */
+
+@media (max-width:768px){
+
+  .header{
+    height: auto;
+  }
+
+  .navbar{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-left img{
+    width: 9rem;
+  }
+
+  .text-xxl{
+    font-size: 2rem;
+  }
+
+  .left-card h1{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .btns{
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .section-third-inner-box{
+    padding: 1rem;
+  }
+
+  .section-fifth-heading div{
+    width: 95%;
+  }
+
+  .section-12-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-top{
+    flex-direction: column;
+  }
+
+  .footer-col{
+    width: 100%;
+  }
+}
+
+/* ======================================
+        480px (Small Mobile)
+====================================== */
+
+@media (max-width:480px){
+
+  .text-xxl{
+    font-size: 1.6rem;
+  }
+
+  .login-btn{
+    width: 100%;
+    text-align: center;
+  }
+
+  .card-btn{
+    width: 100%;
+  }
+
+  .achieve-btn{
+    width: 100%;
+  }
+
+  .section-10 h1,
+  .section-11 h1{
+    font-size: 1.6rem;
+  }
+
+  .footer-bottom{
+    text-align: center;
+    font-size: 12px;
+  }
+}
